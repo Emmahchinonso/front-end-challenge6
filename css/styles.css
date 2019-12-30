@@ -37,7 +37,7 @@ img{
     right: 0;
     width: 50vw;
     height: 60vh;
-    background: #eee;
+    background: var(--neutral-color-4);
     border-bottom-left-radius: 5rem;
     z-index: -1;
 }
@@ -362,6 +362,7 @@ footer{
     .btn{
         font-size: .8rem;
         padding: .7rem;
+        border-radius: 5px;
     }
 
     .btn--none{
